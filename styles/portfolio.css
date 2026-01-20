@@ -53,10 +53,14 @@ padding: 12px 16px;
     
 
 }
+.hamburger {
+  display: none;
+}
+
 .btn span{
     align-items: center;
 }
-.hr1{
+ .hr1{
     height: 2px;
     background-color: #412567;
     border: none;
@@ -65,21 +69,17 @@ padding: 12px 16px;
 
 .background-img{
     background-image: url(../assets/hero-bg.png);
+    
     width: 100%;
     height: 760px;
     display: flex;
     justify-content: center;
     
 }
-
     .banner {
         max-width: 1600px;
   
 }
-
-
-
-
 .background-img-insider{
     height: 350px;
     width: 350px;
@@ -89,7 +89,7 @@ padding: 12px 16px;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    
     position: absolute;
  }
     
@@ -102,8 +102,22 @@ padding: 12px 16px;
     }
     .badge-new{
         position: absolute;
-        top: -12px;
-        right: -12px;
+        top: -2px;
+        right: 12px;
+        background-color: #00FF88;
+        color: #1A0B2E;
+        font-size: 1.2rem;
+        font-weight: 600;
+        border-radius: 20px;
+        width: 75px;
+        height: 38px;
+        text-align: center;
+        align-items: center;
+        padding: 8px 16px 8px 16px;
+    }
+    .badge-new p{
+        text-align: center;
+        margin-top:16px ;
     }
       .banner-content{
             text-align: center;
@@ -268,7 +282,7 @@ padding: 12px 16px;
     padding-left: 40px;
     border-radius: 16px;
     gap:16px;
-     margin-left: 200px;
+    margin-left: 200px;
      
     width: 380px;
     height: 510px;
@@ -415,6 +429,7 @@ padding: 12px 16px;
     background-color: #250d44;
     border-radius: 16px;
     margin-left: 200px;
+    border: none;
 
    }
    .feature-video2{
@@ -422,7 +437,8 @@ padding: 12px 16px;
     width:380px;
     height:440px;
     background-color: #250d44;
-    border-radius: 16px;}
+    border-radius: 16px;
+    border: none;}
     
 
 
@@ -432,13 +448,18 @@ padding: 12px 16px;
     height:440px;
     background-color: #250d44;
     border-radius: 16px;
-    margin-right: 200px;}
+    margin-right: 200px;
+    border: none;}
     .feature-h{
         color: #FFFFFF;
         font-weight: 700;
         font-size: 1.5rem;
         margin-top: 24px;
         margin-left: 24px;
+    }
+    .iframe{
+        border-radius: 16px 16px 0 0;
+        
     }
     .feature-p{
         margin-top: 12px;
@@ -567,10 +588,50 @@ padding: 12px 16px;
     opacity: 0.6;
     margin-top: 32px;
 }
+.btn-spotify:hover{
+    background-color: darkcyan;
+    color: #FFFFFF;
+}
+.btn-subscribe:hover{
+    background-color: darkcyan;
+    color: #00FF88;
+}
+.btn:hover{
+    background-color: darkcyan;
+    color: rgb(255, 240, 249);
+}
+.background-img-insider-logo {
+  animation: micFloat 3s ease-in-out infinite;
+}
 
 
+.background-img-insider-logo {
+  animation: micFloat 3s ease-in-out infinite;
+}
 
+@keyframes micFloat {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-8px) scale(1.06);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+
+
+@media screen and (max-width:576px) { .navbar, .menu, .background-img, .background-img-insider, .hero-buttons, .btn-subscribe, .btn-spotify, .hr-contain, .number-container, .why-tech-tittle, .feature-tittle, .feature-content, .time, .host-tittle, .host-content, .social-circle, .social-item, .footer-text, .socialicon, .social1, .copyright-container{
+    flex-direction:column ;
+
+}
+   .why-tech-card1, .why-tech-content, .why-tech-card2{
+    grid-template-columns: repeat(1,1fr);
     
-
+   }
    
+  
 
+}
+
+}
+}
