@@ -94,8 +94,8 @@ padding: 12px 16px;
  }
     
     .background-img-insider-logo{
-        width: 116px;
-        height: 175px;
+        width: 110px;
+        height: 170px;
          background-image: url(../assets/microphone.png);
          margin: 77px 116px 97px 116px;
 
@@ -122,11 +122,6 @@ padding: 12px 16px;
       .banner-content{
             text-align: center;
         }
-
-
-
-
-  
 .hero-content{
     width: 550px;
     margin-top: 479px;
@@ -150,7 +145,6 @@ padding: 12px 16px;
   color: #ffffff;
   opacity:0.8;
 }
-
 .hero-buttons {
   display: flex;
   justify-content: center;
@@ -160,23 +154,22 @@ padding: 12px 16px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 147px;
-    height: 44px;
+     width: 147px;
+     height: 44px; 
     color: #00FF88;
     border: 2px solid #00FF88;
     background-color: transparent;
     text-align: center;
     border-radius: 16px;
     font-weight: 600;
-    gap: 8px;
-    
+    gap: 8px;   
 
 }
 .btn-spotify{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 201px;
+    width: 200px;
     height: 44px;
     background: linear-gradient(
     90deg,
@@ -187,7 +180,6 @@ padding: 12px 16px;
     gap:8px;
     border-radius: 20px;
     font-weight: 600;
-
 }
 .about{
     width: 100%;
@@ -196,9 +188,7 @@ padding: 12px 16px;
     background-color: #1A0B2E;
 }
 .about .about-item{
-    
     text-align: center;
-    
     align-items: center;
 }
 
@@ -211,8 +201,7 @@ padding: 12px 16px;
           line-height: 20px;
           margin-top:20px ;
           opacity: 0.8;
-          text-align: center;
-          
+          text-align: center;     
           
 }
 .hr-contain{
@@ -224,11 +213,9 @@ padding: 12px 16px;
     max-width: 1600px;
     width: 75%;
     margin-top: 80px;
-    
     border: 1px solid #412567
 
 }
-
 
 .number-container{
     display: flex;
@@ -267,7 +254,6 @@ padding: 12px 16px;
    .why-tech-content{
     display: grid;
     margin-top: 40px;
-    
     gap:30px;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3, 250px);
@@ -283,7 +269,6 @@ padding: 12px 16px;
     border-radius: 16px;
     gap:16px;
     margin-left: 200px;
-     
     width: 380px;
     height: 510px;
     grid-row: span 2;
@@ -293,8 +278,7 @@ padding: 12px 16px;
    .why-tech-card2{
     border:2px solid rgba(53, 17, 101, 0.4);
      display: grid;
-     margin-right: 200px ;
-     
+     margin-right: 200px;
     justify-items: first baseline;
     align-content: center;
     align-items: center;
@@ -314,10 +298,7 @@ padding: 12px 16px;
     align-content: center;
     align-items: center;
     padding-left: 40px;
-    
     border-radius: 16px;
-    
-    
     grid-column: span 2;
     margin-top: 10px;
     margin-right: 200px;
@@ -361,7 +342,6 @@ padding: 12px 16px;
     font-weight:700 ;
     color: #ffffff;
    }
-  
     .why-tech-p1{
     line-height: 24px;
     color: #FFFFFF;
@@ -376,7 +356,6 @@ padding: 12px 16px;
     width:710px;
     height: 24px;
    }
-    
     .why-tech-p3{
     line-height: 24px;
     color: #FFFFFF;
@@ -420,7 +399,6 @@ padding: 12px 16px;
     display:flex;
     justify-content: space-around;
     gap: 30px;
-
    }
    .feature-video1{
     border:2px solid #250d44;
@@ -439,8 +417,6 @@ padding: 12px 16px;
     background-color: #250d44;
     border-radius: 16px;
     border: none;}
-    
-
 
 .feature-video3{
     border:2px solid #250d44;
@@ -486,9 +462,6 @@ padding: 12px 16px;
         font-size: 3rem;
         font-weight: 700;
     }
-
-    
-
     .host-content{
         display: flex;
         margin: 0 auto;
@@ -501,7 +474,6 @@ padding: 12px 16px;
         height: 280px;
     }
 
-
     .social {
   margin-top: 20px;
 }
@@ -511,7 +483,6 @@ padding: 12px 16px;
   height: 40px;
   border-radius: 50%;
   border: 1px solid #533C72;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -565,9 +536,6 @@ padding: 12px 16px;
     display: flex;
     justify-content: center;
     gap:30px;
-    
-    
-    
 }
 .social1{
     display: flex;
@@ -617,21 +585,387 @@ padding: 12px 16px;
     transform: translateY(-8px) scale(1.06);
   }
   100% {
-    transform: translateY(0) scale(1);
+    transform: translateY(0) scale(1);}
+  }
 
+@media screen and (max-width: 576px) {
 
-@media screen and (max-width:576px) { .navbar, .menu, .background-img, .background-img-insider, .hero-buttons, .btn-subscribe, .btn-spotify, .hr-contain, .number-container, .why-tech-tittle, .feature-tittle, .feature-content, .time, .host-tittle, .host-content, .social-circle, .social-item, .footer-text, .socialicon, .social1, .copyright-container{
-    flex-direction:column ;
+body,section,html
+  footer {
+     max-width: 100%;  
+      overflow-x: hidden;}
+  html,body{
+   overflow-x: hidden ;
+    margin: 0;
+    padding:0; }
+  img,
+  iframe {
+    max-width: 100%;
+    height: auto;
+    display: block; }
+      .navbar { 
+        height: 80px;
+        padding: 0 20px;
+        justify-content: space-between; 
+        align-items: center;
+        position: relative}
+    .menu, .navbar .btn {
+        display: none; 
+    }
+    .hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transform: translatex(-100%);
+    cursor: pointer;
+    z-index: 1000;
+  }
+  .hamburger img {
+    width: 32px;
+    height: 32px;
+    display: block;
+  }  
+    .background-img {
+        width: 100% ;
+        height: auto ;
+        background-color: #150a2e;
+        background-size: 100% auto; 
+        background-position: top center;
+        background-repeat: no-repeat;
+        display: flex ;
+        flex-direction: column ;
+        justify-content: flex-start ;
+        align-items: center ;
+        padding-top: 40px ; 
+    }
+    .background-img-insider {
+        position: relative;
+        margin: 0 auto 20px auto; 
+        top: auto ;
+        left: auto ;
+        transform: none;    
+        width: 150px;
+        height: 150px;
+        background-size: contain;
+    }
+    .background-img-insider-logo {
+        margin: 0 ;
+        background-size: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .badge-new {
+        position: absolute;
+        top: -5px; right: -5px;
+        width: 70px;
+        height: 35px;
+        transform: scale(0.8);
+    }
+    .hero-content {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        padding: 0 20px ;
+        text-align: center;
+    }
 
-}
-   .why-tech-card1, .why-tech-content, .why-tech-card2{
-    grid-template-columns: repeat(1,1fr);
-    
-   }
-   
-  
+    .hero-content h1 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+        margin-bottom: 12px;
+    }
+    .hero-content p {
+        font-size: 1rem;
+        margin-bottom: 25px;
+        opacity: 0.8;
+    }
+    .hero-buttons {
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+    }
+    .btn-spotify {
+        width: auto;
+        flex: 1;              
+        max-width: 200px;
+        height: 44px;
+        font-size: 13px;
+        padding: 0 5px;
+        white-space: nowrap;
+    }
+     .btn-subscribe {
+        width: auto;
+        flex: 1;              
+        max-width: 145px;
+        height: 44px;
+        font-size: 13px;
+        padding: 0 5px;
+        white-space: nowrap;
+    }
+    .about {
+        height: auto;
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    .number-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 30px;                      
+        margin-top: 40px;
+        padding: 0 20px;
+        justify-items: center;
+    }
+    #why-tech {
+    width: 100%;
+    height: auto;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+  }
+  .why-tech-tittle {
+    padding-top: 60px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+  }
+  .why-tech-tittle h1 {
+    font-size: 1.6rem;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .why-tech-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+  }
+  .why-tech-card1,
+  .why-tech-card2,
+  .why-tech-card3,
+  .why-tech-card4,
+  .why-tech-card5 {
 
-}
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 16px;
+    padding: 22px 20px;
+    border-radius: 24px;
+    background-color: rgba(53, 17, 101, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: auto;
+    min-height: unset;
+    box-sizing: border-box;
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .why-tech-card1 img,
+  .why-tech-card2 img,
+  .why-tech-card3 img,
+  .why-tech-card4 img,
+  .why-tech-card5 img {
+    width: 36px;
+    height: 36px;
+    margin-bottom: 10px;
+  }
+  .why-tech-h1 {
+    font-size: 2rem;
+    margin-bottom: 6px;
+  }
+  .why-tech-p1,
+  .why-tech-p2,
+  .why-tech-p3,
+  .why-tech-p4,
+  .why-tech-p5 {
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+    margin: 0;
+  }
+    #feature {
+    width: 100%;
+    height: auto;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+  }
+  .feature-tittle {
+    padding-top: 60px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .feature-tittle h3 {
+    font-size: 1.6rem;
+  }
+  .feature-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+  }
+  .feature-video1,
+  .feature-video2,
+  .feature-video3 {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    min-height: unset;
+    border-radius: 24px;
+    background-color: #250D44;
+    box-sizing: border-box;
+  }
+  .feature-h {
+    font-size: 1.5rem;
+    margin: 16px 16px 8px;
+  }
+  .feature-p {
+    line-height: 22px;
+    margin: 0 16px 8px;
+    width: auto;
+  }
+  .time {
+    margin: 0 16px 16px;
+    gap: 6px;
+  }
 
-}
+  .host {
+    padding-bottom: 40px;
+  }
+  .host-tittle {
+    margin-top: 60px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .host-tittle h3 {
+    font-size: 1.6rem;
+  }
+  .host-content {
+    width: calc(100% - 32px);  
+    margin: 0 auto;
+    height: auto;
+    padding: 32px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 28px;
+    box-sizing: border-box;
+  }
+  .host-content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 16px;
+  }
+  .host-info h3 {
+    font-size: 1rem;
+    margin: 0 0 12px;
+    text-align: center;
+  }
+  .host-info p {
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+    margin: 0 0 20px;
+    text-align: center;
+  }
+  .social-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 16px;
+  }
+  .social {
+    margin: 0;
+    /* padding: 0; */
+    display: flex;
+  }
+  .social-circle {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    /* line-height: 0;           */
+    box-sizing: border-box;
+  }
+  .social-circle img {
+    width: 18px;
+    height: 18px;
+    display: block;          
+    margin: 0;  
+    /* line-height: 0;        */
+  }
+  footer.footer {
+    width: 100%;
+    min-height: unset;        
+    height: auto;
+    padding: 40px 16px 28px;   
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .footer-text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .footer-text img {
+    max-width: 180px;
+    height: auto;
+    padding-top: 0;
+  }
+  .socialicon {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 12px;
+    margin-bottom: 20px;
+  }
+  .social1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-top: 0;
+    height: auto;
+    max-width: unset;
+    font-size: 0.9rem;
+  }
+  .social1 img {
+    width: 18px;
+    height: 18px;
+    display: block;
+  }
+  .copyright-container {
+    display: flex;
+    justify-content: center;
+  }
+  .copyright {
+    text-align: center;
+    font-size: 0.85rem;
+    line-height: 20px;
+    margin-top: 0;
+    padding: 0 8px;
+  }
+
 }
